@@ -1,0 +1,5 @@
+export HOME=/Users/shoaib
+export RBENV_ROOT=/usr/local/var/rbenv
+export PATH=$RBENV_ROOT/shims:/usr/local/opt/rbenv/bin:$PATH
+# Keep alive for 3 hours (i.e. 60 * 60 * 3).
+export POW_TIMEOUT=10800
