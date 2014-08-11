@@ -42,3 +42,5 @@ alias blog="builtin cd $gtd_root/03_current_projects/myblog && atom ."
 
 # add plugin's bin directory to path
 export PATH="$(dirname $0)/bin:$PATH"
+
+export RBENV_ROOT=/usr/local/var/rbenv
