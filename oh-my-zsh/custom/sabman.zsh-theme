@@ -6,3 +6,6 @@ fi
 
 ZSH_THEME_GIT_PROMPT_PREFIX="["
 ZSH_THEME_GIT_PROMPT_SUFFIX="]"
+
+# Alias ls to GNUs ls
+alias ls='gls --color=auto'
