@@ -21,7 +21,7 @@ export archive="$gtd_root/04_archive"
 alias i="cd $gtd_root/00_inbox"
 alias a="cd $gtd_root/01_actions"
 alias p="builtin cd $gtd_root/03_current_projects"
-alias sbzr='subl ~/.zshrc'
+alias azr='atom ~/.zshrc'
 alias szr='source ~/.zshrc'
 
 # Git
@@ -36,7 +36,6 @@ alias gco='git checkout'
 alias ga='git add'
 
 alias tlog='tail -f log/development.log'
-
 alias journal='atom ~/Dropbox/Essays/journal.md'
 alias blog="builtin cd $gtd_root/03_current_projects/myblog && atom ."
 
@@ -46,5 +45,4 @@ export PATH="$(dirname $0)/bin:$PATH"
 # add go
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:/usr/local/opt/go/bin
 export GOPATH=/usr/local/opt/go
-
 export RBENV_ROOT=/usr/local/var/rbenv

@@ -1,9 +1,9 @@
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="sabman"
+ZSH_THEME="bullet-train"
 DISABLE_AUTO_UPDATE="true"
 DISABLE_LS_COLORS="true"
 
-plugins=(git sublime rails coffee bundler brew ruby zeus rbenv python pip z sabman docker go)
+plugins=( atom brew bundler docker git go pip python rails rbenv ruby sabman sublime vim z )
 
 export PATH="$HOME/anaconda/bin:/usr/local/bin:$PATH"
 export EDITOR='atom -n'
