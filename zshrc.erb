@@ -5,10 +5,13 @@ DISABLE_LS_COLORS="true"
 
 plugins=( atom brew bundler docker git go pip python rails rbenv ruby sabman sublime vim z )
 
-export PATH="$HOME/anaconda/bin:/usr/local/bin:$PATH"
+export PATH="./node_modules/.bin:$HOME/anaconda/bin:/usr/local/bin:$PATH"
 export EDITOR='atom -n'
 
 source $ZSH/oh-my-zsh.sh
 
 # for Homebrew installed rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# API Tokens
+export MapboxAccessToken=<%= print("MapboxAccessToken: "); STDOUT.flush; STDIN.gets.chomp %>
