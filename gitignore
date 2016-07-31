@@ -3,3 +3,5 @@
 *~
 .*.swp
 .tags*
+.tern-project
+node_modules
