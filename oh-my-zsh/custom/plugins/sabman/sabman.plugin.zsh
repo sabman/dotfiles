@@ -23,6 +23,7 @@ alias a="cd $gtd_root/01_actions"
 alias p="builtin cd $gtd_root/03_current_projects"
 alias azr='atom ~/.zshrc'
 alias szr='source ~/.zshrc'
+alias be="bundle exec"
 
 # Git
 alias g='git'
